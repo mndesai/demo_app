@@ -10,6 +10,7 @@ group :development do
 end
 
 
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -27,6 +28,7 @@ gem 'jquery-rails', '2.0.2'
 group :production do
 	gem 'pg', '0.12.2'
 end
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
